@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Puvvadi - Student Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #004d40;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: #00796b;
+            color: #fff;
+        }
+
+        .profile {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .profile h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .profile p {
+            font-size: 1.3rem;
+            color: #c8e6c9;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #004d40;
+        }
+
+        .skills, .education, .projects {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        .skill, .education-item, .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .skill h3, .education-item h3, .project h3 {
+            font-size: 1.8rem;
+            color: #00796b;
+        }
+
+        .skills ul, .education-item p, .projects p {
+            margin: 0.5rem 0;
+        }
+
+        .skills ul, .education-item p {
+            line-height: 1.5;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            margin: 0.5rem 0;
+        }
+
+        .contact a {
+            color: #004d40;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="profile">
+                <h1>Vamsi Puvvadi</h1>
+                <p>Web Developer | Computer Science Student</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I’m Vamsi Puvvadi, a dedicated Computer Science student and aspiring web developer. I am passionate about leveraging my technical skills to build impactful digital solutions. Explore my portfolio to learn more about my work and background.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am currently pursuing a Bachelor of Technology in Computer Science and Engineering at Vignan’s Foundation for Science, Technology and Research. My interests lie in web development, machine learning, and software engineering. Outside of academics, I enjoy exploring new technologies and working on innovative projects. I am also an avid learner with a passion for solving complex problems and developing effective solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java (Basic)</li>
+                    <li>C (Basic)</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (Basic)</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Database Management</h3>
+                <ul>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>Keras</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Tools/Platforms</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>MySQL Workbench</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Creativity</li>
+                    <li>Communication</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p>Vignan’s Foundation for Science, Technology and Research, Vadlamudi, India</p>
+                <p>Aug 2021 – May 2025</p>
+                <p>Percentage: 72% (as of 3-2 semester)</p>
+                <p>Relevant Coursework: Data Structures, Algorithms, Database Management, Operating Systems, Computer Networks, Software Engineering, Machine Learning, Artificial Intelligence.</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate (11th and 12th Grades) in MPC</h3>
+                <p>Narayana Junior College, Vijayawada, India</p>
+                <p>Jun 2019 – May 2021</p>
+                <p>Percentage: 94.7%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Towards Robust Skin Cancer Diagnosis: Deep Fusion Of VGG16 and MobileNet</h3>
+                <p><strong>Description:</strong> Combines the deep, high-level features of VGG16 with the lightweight, efficient features of MobileNet, leveraging their complementary strengths for improved skin cancer diagnosis. This project aims to enhance diagnostic accuracy by integrating the detailed, complex representations from VGG16 with the fast, low-latency features from MobileNet, leading to a more robust and reliable model. It balances computational demands and diagnostic performance, making it feasible for real-time applications.</p>
+                <p><strong>Technologies:</strong> Deep Learning, Computer Vision</p>
+            </div>
+            <div class="project">
+                <h3>Exploring Ensemble Techniques for Market Basket Analysis</h3>
+                <p><strong>Description:</strong> Developed a market basket analysis system using Random Forest classifier and FP-Growth algorithm to identify frequent itemsets and generate association rules. Enhanced model accuracy and scalability, optimizing FP-Growth and integrating Random Forest improved classification in transactional datasets, leading to actionable insights for strategic decision-making in marketing and sales optimization.</p>
+                <p><strong>Technologies:</strong> Machine Learning</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you’d like to reach out to me, feel free to use the following contact methods:</p>
+            <ul>
+                <li>Email: <a href="mailto:vamsipuvvadi123@gmail.com">vamsipuvvadi123@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/vamsipuvvadi" target="_blank">linkedin.com/in/vamsipuvvadi</a></li>
+                <li>GitHub: <a href="https://github.com/vamsipuvvadi" target="_blank">github.com/vamsipuvvadi</a></li>
+            </ul>
+        </div>
